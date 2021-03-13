@@ -1,0 +1,18 @@
+.ds-avatar-container {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f1f1;
+    border-radius: 50%;
+}
+.ds-avatar-image {
+    border-radius: 50%;
+    height: 80px;
+}
+.ds-avatar-text {
+    color: #363636;
+    font-size: 24px;
+    line-height: 19px;
+}

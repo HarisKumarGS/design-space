@@ -1,1 +1,6 @@
-<p>avatar works!</p>
+<div class="ds-avatar-container">
+    <img class="ds-avatar-image" *ngIf="!showInitials" src="{{image}}">
+    <div *ngIf="showInitials" class="ds-avatar-text">
+        {{initials}}
+    </div>
+</div>
