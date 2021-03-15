@@ -13,7 +13,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 4px;
   }
   .ds-avatar-text {
     line-height: 19px;
@@ -55,6 +54,7 @@
   .ds-avatar-title {
     font-family: 'Open Sans';
     opacity: 0.6;
+    margin-top: 5px;
   }
   .small-name {
     font-size: 12px;
