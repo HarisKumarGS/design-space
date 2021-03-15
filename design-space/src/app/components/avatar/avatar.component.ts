@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AvatarComponent implements OnInit {
 
-  username: string = 'John Doe';
+  name: string = 'John Doe';
+  image: string = 'https://source.unsplash.com/WNoLnJo7tS8/800x800';
+  
 
   constructor() { }
 
