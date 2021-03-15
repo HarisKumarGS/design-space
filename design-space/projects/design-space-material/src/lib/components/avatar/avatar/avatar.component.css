@@ -1,18 +1,81 @@
 .ds-avatar-container {
-    height: 80px;
-    width: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f1f1f1;
+  }
+  .ds-avatar {
+    display: inline-block;
+  }
+  .ds-avatar-component {
+    display: flex;
+  }
+  .ds-avatar-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .ds-avatar-image {
     border-radius: 50%;
-}
-.ds-avatar-image {
-    border-radius: 50%;
-    height: 80px;
-}
-.ds-avatar-text {
-    color: #363636;
-    font-size: 24px;
+  }
+  .ds-avatar-text {
     line-height: 19px;
-}
+    font-family: 'Open Sans';
+  }
+  .small {
+    height: 32px;
+    width: 32px;
+  }
+  .medium {
+    height: 40px;
+    width: 40px;
+  }
+  .large {
+    height: 48px;
+    width: 48px;
+  }
+  .small-font {
+    font-size: 14px;
+  }
+  .medium-font {
+    font-size: 16px;
+  }
+  .large-font {
+    font-size: 20px;
+  }
+  .circle-shape {
+    border-radius: 50%;
+  }
+  .square-shape {
+    border-radius: 1px;
+  }
+  .semi-circle-shape {
+    border-radius: 8px;
+  }
+  .ds-avatar-name {
+    font-family: 'Open Sans';
+  }
+  .ds-avatar-title {
+    font-family: 'Open Sans';
+    opacity: 0.6;
+  }
+  .small-name {
+    font-size: 12px;
+  }
+  .medium-name {
+    font-size: 14px;
+  }
+  .large-name {
+    font-size: 18px;
+  }
+  .small-title {
+    font-size: 9px;
+  }
+  .medium-title {
+    font-size: 10px;
+  }
+  .large-title {
+    font-size: 12px;
+  }
+  .ml-8 {
+    margin-left: 8px;
+  }

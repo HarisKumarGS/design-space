@@ -9,7 +9,14 @@ export class AvatarComponent implements OnInit {
 
   @Input() image: string = '';
   @Input() name: string = '';
-
+  @Input() size: string = 'medium';
+  @Input() title: string = '';
+  @Input() shape: string = 'circle';
+  @Input() showName: boolean = false;
+  @Input() showTitle: boolean = false;
+  @Input() backgroundColor: string = '#f1f1f1';
+  @Input() fontColor: string = '#111111';
+  
   initials: string = '';
 
   showInitials = false;
