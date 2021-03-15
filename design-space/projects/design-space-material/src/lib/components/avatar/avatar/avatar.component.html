@@ -1,7 +1,7 @@
 <div class="ds-avatar">
     <div class="ds-avatar-component">
         <div class="ds-avatar-container" [ngStyle]="{'background' : backgroundColor ? backgroundColor : '#f1f1f1'}" [ngClass]="{'small': size === 'small', 'medium': size === 'medium', 'large': size === 'large', 'circle-shape': shape === 'circle', 'square-shape': shape === 'square', 'semi-circle-shape': shape === 'semi-circle' }">
-            <img class="ds-avatar-image" [ngClass]="{'small': size === 'small', 'medium': size === 'medium', 'large': size === 'large' }" *ngIf="!showInitials" src="{{image}}">
+            <img class="ds-avatar-image" [ngClass]="{'small': size === 'small', 'medium': size === 'medium', 'large': size === 'large', 'circle-shape': shape === 'circle', 'square-shape': shape === 'square', 'semi-circle-shape': shape === 'semi-circle'}" *ngIf="!showInitials" src="{{image}}">
             <div *ngIf="showInitials" class="ds-avatar-text" [ngStyle]="{'color' : fontColor ? fontColor : '#111111'}" [ngClass]="{'small-font': size === 'small', 'medium-font': size === 'medium', 'large-font': size === 'large' }">
                 {{initials}}
             </div>
