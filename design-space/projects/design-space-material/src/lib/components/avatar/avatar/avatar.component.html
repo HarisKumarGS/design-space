@@ -8,7 +8,7 @@
         </div>
         <div class="ds-avatar-details" [ngStyle]="{'color' : fontColor ? fontColor : '#111111'}" *ngIf="(showName || showTitle)" [ngClass]="{'ml-8' : (showName || showTitle) && (name.length !== 0 || title.length !== 0)}">
             <div class="ds-avatar-name" [ngClass]="{'small-name': size === 'small', 'medium-name': size === 'medium', 'large-name': size === 'large' }" *ngIf="showName">{{name}}</div>
-            <div class="ds-avatar-title" [ngClass]="{'small-title': size === 'small', 'medium-title': size === 'medium', 'large-title': size === 'large' }" *ngIf="showTitle">{{title}}</div>
+            <div class="ds-avatar-title" [ngClass]="{'small-title mt-2': size === 'small', 'medium-title mt-3': size === 'medium', 'large-title mt-4': size === 'large' }" *ngIf="showTitle">{{title}}</div>
         </div>
     </div>
 </div>
